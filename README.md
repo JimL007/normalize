@@ -23,7 +23,8 @@ Normalize.css 使用非常非常简单.
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 ## 说明：normalize文档可拆分为不同的模块来使用,以下为个人习惯称呼
 1. [Document](#Document)
-2. [Sections](#Sections)
+2. [Sections](#Sections)  
+
 /* <a id="Document">Document</a>
    ========================================================================== */
 
