@@ -21,9 +21,11 @@ Normalize.css 使用非常非常简单.
 `<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"`
 ***
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
+## 说明：normalize文档可拆分为不同的模块来使用,以下为个人习惯称呼
+1. [Document](#Document)
+2. [Sections](#Sections)
+/* <a id="Document">Document</a>
+   ========================================================================== */
 
 /**
  * 1. Correct the line height in all browsers.
@@ -37,7 +39,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* Sections
+/* <a id="Sections">Sections</a>
    ========================================================================== */
 
 /**
