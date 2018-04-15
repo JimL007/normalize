@@ -5,7 +5,9 @@
 
 /**
  * 1. Correct the line height in all browsers.
+ * .修正所有浏览器中的行高。
  * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * .在iOS中改变方向后，不要调整字体大小。
  */
 
 html {
@@ -27,13 +29,14 @@ body {
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
+ * 修正Chrome，Firefox和Safari中的`section`和*`article`上下文中`h1`元素的字体大小和边距。
  */
 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
+	
 /* Grouping content
    ========================================================================== */
 
