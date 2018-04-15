@@ -24,12 +24,13 @@ Normalize.css 使用非常非常简单.
 ## 说明：normalize文档可拆分为不同的模块来使用.
 1. [Document](#Document)
 2. [Sections](#Sections)  
-3. [Grouping content](#Grouping content)
-4. [Text-level semantics](#Text-level semantics)
-5. [Embedded content](#Embedded content)
+3. [Grouping content](#Groupingcontent)
+4. [Text-level semantics](#Text-levelsemantics)
+5. [Embedded content](#Embeddedcontent)
 6. [Forms](#Forms)
 7. [Interactive](#Interactive)
-8. [Misc](#Misc)
+8. [Misc](#Misc)  
+
 /* <a id="Document">1. Document</a>
    ========================================================================== */
 
@@ -67,7 +68,7 @@ h1 {
   margin: 0.67em 0;
 }
 	
-/* <a id="Grouping content">3. Grouping content</a>
+/* <a id="Groupingcontent">3. Grouping content</a>
    ========================================================================== */
 
 /**
@@ -94,7 +95,7 @@ pre {
   font-size: 1em; /* 2 */
 }
 
-/* <a id="Text-level semantics">4. Text-level semantics</a>
+/* <a id="Text-levelsemantics">4. Text-level semantics</a>
    ========================================================================== */
 
 /**
@@ -172,7 +173,7 @@ sup {
   top: -0.5em;
 }
 
-/* <a id="Embedded content">5. Embedded content</a>
+/* <a id="Embeddedcontent">5. Embedded content</a>
    ========================================================================== */
 
 /**
