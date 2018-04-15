@@ -21,11 +21,16 @@ Normalize.css 使用非常非常简单.
 `<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"`
 ***
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-## 说明：normalize文档可拆分为不同的模块来使用,以下为个人习惯称呼
+## 说明：normalize文档可拆分为不同的模块来使用.
 1. [Document](#Document)
 2. [Sections](#Sections)  
-
-/* <a id="Document">Document</a>
+3. [Grouping content](#Grouping content)
+4. [Text-level semantics](#Text-level semantics)
+5. [Embedded content](#Embedded content)
+6. [Forms](#Forms)
+7. [Interactive](#Interactive)
+8. [Misc](#Misc)
+/* <a id="Document">1. Document</a>
    ========================================================================== */
 
 /**
@@ -40,7 +45,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/* <a id="Sections">Sections</a>
+/* <a id="Sections">2. Sections</a>
    ========================================================================== */
 
 /**
@@ -62,7 +67,7 @@ h1 {
   margin: 0.67em 0;
 }
 	
-/* Grouping content
+/* <a id="Grouping content">3. Grouping content</a>
    ========================================================================== */
 
 /**
@@ -89,7 +94,7 @@ pre {
   font-size: 1em; /* 2 */
 }
 
-/* Text-level semantics
+/* <a id="Text-level semantics">4. Text-level semantics</a>
    ========================================================================== */
 
 /**
@@ -167,7 +172,7 @@ sup {
   top: -0.5em;
 }
 
-/* Embedded content
+/* <a id="Embedded content">5. Embedded content</a>
    ========================================================================== */
 
 /**
@@ -179,7 +184,7 @@ img {
   border-style: none;
 }
 
-/* Forms
+/* <a id="Forms">6. Forms</a>
    ========================================================================== */
 
 /**
@@ -340,7 +345,7 @@ textarea {
   font: inherit; /* 2 */
 }
 
-/* Interactive
+/* <a id="Interactive">7. Interactive</a>
    ========================================================================== */
 
 /*
@@ -359,7 +364,7 @@ summary {
   display: list-item;
 }
 
-/* Misc
+/* <a id="Misc">8. Misc</a>
    ========================================================================== */
 
 /**
