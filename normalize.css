@@ -54,6 +54,9 @@ hr {
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+ * .纠正所有浏览器中字体大小的继承和缩放。
+ * .更正所有浏览器中奇怪的'em`字体大小。
+ * pre标签适合显示计算机代码
  */
 
 pre {
@@ -66,6 +69,7 @@ pre {
 
 /**
  * Remove the gray background on active links in IE 10.
+ * 删除IE 10中活动链接上的灰色背景。
  */
 
 a {
@@ -75,6 +79,8 @@ a {
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * <abbr> 标签指示简称或缩写，比如 "baidu"。
+ * <abbr title="https://baidu.com">baidu</abbr>
  */
 
 abbr[title] {
@@ -85,6 +91,7 @@ abbr[title] {
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
+ * 在Chrome，Edge和Safari中添加正确的字体重量。
  */
 
 b,
@@ -95,6 +102,7 @@ strong {
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+ * monospace 等宽字体
  */
 
 code,
@@ -115,6 +123,7 @@ small {
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
+ * 在所有的浏览器中，防止`sub`和`sup`元素影响行中的高度
  */
 
 sub,
@@ -138,6 +147,7 @@ sup {
 
 /**
  * Remove the border on images inside links in IE 10.
+ *  *删除IE 10中链接内的图像边框。
  */
 
 img {
