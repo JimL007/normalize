@@ -3,7 +3,9 @@
 >定义浏览器统一的默认样式：Normalize.css
 1. 如果你从事网页前端工作，肯定会发现不同浏览器的默认样式有细微的差异，这个让你在使用 CSS 进行布局工作的时候相当烦人，况且有些差异还不是那么细微，比如不同浏览器之间的默认表单样式差异以及 <html> 和 <body> 元素的margin 和 padding 的差异等。  
 2. 一般前端工程师都会使用 reset.css 去处理不同浏览器的默认样式，这里推荐使用 Normalize.css，它是一个定制的 reset.css 文件，可以让所有元素在所有的现代浏览器上渲染一致。  
-3. 相比其它的 reset.css，Normalize.css 保留有用的默认样式，不像其它 reset.css 那么彻底，移除了每个默认样式，然后又得费神把需要的样式再加回来。Normalize.css 定义绝大多数元素的默认样式，并且还提高了一些元素的可用性，并且代码都有详细的注释。
+3. 相比其它的 reset.css，Normalize.css 保留有用的默认样式，不像其它 reset.css 那么彻底，移除了每个默认样式，然后又得费神把需要的样式再加回来。Normalize.css 定义绝大多数元素的默认样式，并且还提高了一些元素的可用性，并且代码都有详细的注释。  
+
+>另附一份出自[Jerry Zou大牛](https://github.com/zry656565?tab=repositories)翻译的[normalize官网文档](http://jerryzou.com/posts/aboutNormalizeCss/)
 
 ## 2. Normalize.css 支持的浏览器
 * Google Chrome (latest)
@@ -14,13 +16,17 @@
 * Internet Explorer 8+
 ## 3. 如何使用 Normalize.css
 Normalize.css 使用非常非常简单.  
-[Normalize的官网](http://jerryzou.com/posts/aboutNormalizeCss/)  
-首先，安装或从Github下载[Normalize.css](https://github.com/necolas/normalize.css)，接下来有两种主要途径去使用它。  
+下载路径:
+1. [Normalize的官网](http://necolas.github.io/normalize.css/)
+2. 从Github下载[Normalize.css](https://github.com/necolas/normalize.css)
 
-策略一：将normalize.css作为你自己项目的基础CSS，自定义样式值以满足设计师的需求。  
-策略二：引入normalize.css源码并在此基础上构建，在必要的时候用你自己写的CSS覆盖默认值。  
+接下来有两种主要途径去使用它。   
+
+策略一：将normalize.css作为你自己项目的基础CSS，自定义样式值以满足设计师的需求。    
+策略二：引入normalize.css源码并在此基础上构建，在必要的时候用你自己写的CSS覆盖默认值。    
 `<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"`
 ***
+## 以下内容为normalize.css文件(自我改编版,适用于我本人).
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 ## 说明：normalize文档可拆分为不同的模块来使用.
 1. [Document](#Document)
