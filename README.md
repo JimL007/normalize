@@ -35,7 +35,7 @@ Normalize.css 使用非常非常简单.
 
 ### /* <a id="Document">1. Document</a> */
 
-/**
+/*
  * 1. Correct the line height in all browsers.
  * .修正所有浏览器中的行高。
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -51,7 +51,7 @@ html {
 
 ### /* <a id="Sections">2. Sections</a>*/
 
-/**
+/*
  * Remove the margin in all browsers.
  */
 
@@ -59,7 +59,7 @@ body {
   margin: 0;
 }
 
-/**
+/*
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  * 修正Chrome，Firefox和Safari中的`section`和*`article`上下文中`h1`元素的字体大小和边距。
@@ -74,7 +74,7 @@ h1 {
 
 ### /* <a id="Groupingcontent">3. Grouping content</a>*/
 
-/**
+/*
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
@@ -85,7 +85,7 @@ hr {
   overflow: visible; /* 2 */
 }
 
-/**
+/*
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  * .纠正所有浏览器中字体大小的继承和缩放。
@@ -102,7 +102,7 @@ pre {
 
 ### /* <a id="Text-levelsemantics">4. Text-level semantics</a> */
 
-/**
+/*
  * Remove the gray background on active links in IE 10.
  * 删除IE 10中活动链接上的灰色背景。
  */
@@ -111,7 +111,7 @@ a {
   background-color: transparent;
 }
 
-/**
+/*
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  * <abbr> 标签指示简称或缩写，比如 "baidu"。
@@ -124,7 +124,7 @@ abbr[title] {
   text-decoration: underline dotted; /* 2 */
 }
 
-/**
+/*
  * Add the correct font weight in Chrome, Edge, and Safari.
  * 在Chrome，Edge和Safari中添加正确的字体重量。
  */
@@ -134,7 +134,7 @@ strong {
   font-weight: bolder;
 }
 
-/**
+/*
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  * monospace 等宽字体
@@ -147,7 +147,7 @@ samp {
   font-size: 1em; /* 2 */
 }
 
-/**
+/*
  * Add the correct font size in all browsers.
  */
 
@@ -155,7 +155,7 @@ small {
   font-size: 80%;
 }
 
-/**
+/*
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  * 在所有的浏览器中，防止`sub`和`sup`元素影响行中的高度
@@ -181,7 +181,7 @@ sup {
 
 ### /* <a id="Embeddedcontent">5. Embedded content</a> */
 
-/**
+/*
  * Remove the border on images inside links in IE 10.
  *  *删除IE 10中链接内的图像边框。
  */
@@ -194,7 +194,7 @@ img {
 
 ### /* <a id="Forms">6. Forms</a> */
 
-/**
+/*
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
@@ -210,7 +210,7 @@ textarea {
   margin: 0; /* 2 */
 }
 
-/**
+/*
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
@@ -220,7 +220,7 @@ input { /* 1 */
   overflow: visible;
 }
 
-/**
+/*
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
@@ -230,7 +230,7 @@ select { /* 1 */
   text-transform: none;
 }
 
-/**
+/*
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
@@ -241,7 +241,7 @@ button,
   -webkit-appearance: button;
 }
 
-/**
+/*
  * Remove the inner border and padding in Firefox.
  */
 
@@ -253,7 +253,7 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-/**
+/*
  * Restore the focus styles unset by the previous rule.
  */
 
@@ -264,7 +264,7 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-/**
+/*
  * Correct the padding in Firefox.
  */
 
@@ -272,7 +272,7 @@ fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
-/**
+/*
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
@@ -288,7 +288,7 @@ legend {
   white-space: normal; /* 1 */
 }
 
-/**
+/*
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
@@ -296,7 +296,7 @@ progress {
   vertical-align: baseline;
 }
 
-/**
+/*
  * Remove the default vertical scrollbar in IE 10+.
  */
 
@@ -304,7 +304,7 @@ textarea {
   overflow: auto;
 }
 
-/**
+/*
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
@@ -315,7 +315,7 @@ textarea {
   padding: 0; /* 2 */
 }
 
-/**
+/*
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
@@ -324,7 +324,7 @@ textarea {
   height: auto;
 }
 
-/**
+/*
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
@@ -334,7 +334,7 @@ textarea {
   outline-offset: -2px; /* 2 */
 }
 
-/**
+/*
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
@@ -342,7 +342,7 @@ textarea {
   -webkit-appearance: none;
 }
 
-/**
+/*
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
@@ -376,7 +376,7 @@ summary {
 
 ### /* <a id="Misc">8. Misc</a> */
 
-/**
+/*
  * Add the correct display in IE 10+.
  */
 
@@ -384,7 +384,7 @@ template {
   display: none;
 }
 
-/**
+/*
  * Add the correct display in IE 10.
  */
 
