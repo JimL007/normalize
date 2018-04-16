@@ -13,9 +13,9 @@
 * Apple Safari 6+
 * Internet Explorer 8+
 ## 3. 如何使用 Normalize.css
-Normalize.css 使用非常非常简单.
-[Normalize的官网](http://jerryzou.com/posts/aboutNormalizeCss/)
-首先，安装或从Github下载[Normalize.css](https://github.com/necolas/normalize.css)，接下来有两种主要途径去使用它。
+Normalize.css 使用非常非常简单.  
+[Normalize的官网](http://jerryzou.com/posts/aboutNormalizeCss/)  
+首先，安装或从Github下载[Normalize.css](https://github.com/necolas/normalize.css)，接下来有两种主要途径去使用它。  
 
 策略一：将normalize.css作为你自己项目的基础CSS，自定义样式值以满足设计师的需求。  
 策略二：引入normalize.css源码并在此基础上构建，在必要的时候用你自己写的CSS覆盖默认值。  
